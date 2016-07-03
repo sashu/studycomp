@@ -8,6 +8,6 @@ public class NativeAuthController {
 
 	@RequestMapping("/test")
 	public Object test() {
-		return "Test";
+		return "Test hello";
 	}
 }
